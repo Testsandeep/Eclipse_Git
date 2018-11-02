@@ -12,6 +12,8 @@ public class First {
 
 		First obj = new First();
 		obj.A();
+		obj.B();
+		obj.C();
 
 	}
 
@@ -21,6 +23,7 @@ public class First {
 		String s2 = "s";
 		
 		sa.assertEquals(s1, s2);
+		System.out.println("A");
 	}
 	
 	@Test
@@ -29,6 +32,7 @@ public class First {
 		String s2 = "m";
 		
 		sa.assertEquals(s1, s2);
+		System.out.println("B");
 	}
 	
 	@Test
@@ -37,6 +41,7 @@ public class First {
 		String s2 = "d";
 		
 		sa.assertEquals(s1, s2);
+		System.out.println("C");
 	}
 
 }
