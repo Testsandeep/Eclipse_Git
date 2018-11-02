@@ -2,11 +2,8 @@ package package_Test;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 
 public class First {
-	
-	SoftAssert sa = new SoftAssert();
 
 	public static void main(String[] args) {
 
@@ -22,7 +19,7 @@ public class First {
 		String s1 = "s";
 		String s2 = "s";
 		
-		sa.assertEquals(s1, s2);
+		Assert.assertEquals(s1, s2);
 		System.out.println("A");
 	}
 	
@@ -31,7 +28,7 @@ public class First {
 		String s1 = "s";
 		String s2 = "m";
 		
-		sa.assertEquals(s1, s2);
+		Assert.assertEquals(s1, s2);
 		System.out.println("B");
 	}
 	
@@ -40,7 +37,7 @@ public class First {
 		String s1 = "d";
 		String s2 = "d";
 		
-		sa.assertEquals(s1, s2);
+		Assert.assertEquals(s1, s2);
 		System.out.println("C");
 	}
 
