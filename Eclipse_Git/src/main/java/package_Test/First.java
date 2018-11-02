@@ -19,5 +19,13 @@ public class First {
 		
 		Assert.assertEquals(s1, s2);
 	}
+	
+	@Test
+	public void B() {
+		String s1 = "s";
+		String s2 = "k";
+		
+		Assert.assertEquals(s1, s2);
+	}
 
 }
