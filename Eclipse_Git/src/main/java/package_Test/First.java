@@ -1,5 +1,7 @@
 package package_Test;
 
+import org.testng.Assert;
+
 public class First {
 
 	public static void main(String[] args) {
@@ -10,7 +12,10 @@ public class First {
 	}
 
 	public void A() {
-		System.out.println("First Program");
+		String s1 = "s";
+		String s2 = "a";
+		
+		Assert.assertEquals(s1, s2);
 	}
 
 }
