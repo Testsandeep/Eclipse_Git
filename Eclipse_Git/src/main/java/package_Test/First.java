@@ -23,7 +23,7 @@ public class First {
 	@Test
 	public void B() {
 		String s1 = "s";
-		String s2 = "k";
+		String s2 = "m";
 		
 		Assert.assertEquals(s1, s2);
 	}
