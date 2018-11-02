@@ -1,6 +1,7 @@
 package package_Test;
 
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
 public class First {
 
@@ -11,6 +12,7 @@ public class First {
 
 	}
 
+	@Test
 	public void A() {
 		String s1 = "s";
 		String s2 = "a";
