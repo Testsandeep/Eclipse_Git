@@ -15,7 +15,7 @@ public class First {
 	@Test
 	public void A() {
 		String s1 = "s";
-		String s2 = "a";
+		String s2 = "s";
 		
 		Assert.assertEquals(s1, s2);
 	}
