@@ -34,8 +34,8 @@ public class First {
 	
 	@Test
 	public void C() {
-		String s1 = "d";
-		String s2 = "d";
+		String s1 = "ff";
+		String s2 = "ff";
 		
 		Assert.assertEquals(s1, s2);
 		System.out.println("C");
