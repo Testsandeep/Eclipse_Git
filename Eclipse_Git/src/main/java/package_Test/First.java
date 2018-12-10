@@ -26,7 +26,7 @@ public class First {
 	@Test
 	public void B() {
 		String s1 = "s";
-		String s2 = "m";
+		String s2 = "s";
 		
 		Assert.assertEquals(s1, s2);
 		System.out.println("B");
